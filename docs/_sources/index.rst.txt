@@ -8,6 +8,14 @@ Lifespline AWS Samples: Glue Spark Cluster
 
 The sample shows how to set up an AWS Glue Spark job, consuming data to and from AWS S3. The job runs first locally with a spark docker container. The container is published to the AWS Registry and consumed directly from the Glue Spark job.
 
+Data
+----
+
+The data is specified in :download:`mock data <../../static/gen_mock_data.py>`.
+
+.. automodule:: gen_mock_data
+   :members:
+
 .. toctree::
    :maxdepth: 1
    :caption: Contents:

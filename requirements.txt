@@ -5,3 +5,9 @@ furo
 
 # task runner
 invoke
+
+# data
+pandas
+
+# parquet engine
+pyarrow
